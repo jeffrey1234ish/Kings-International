@@ -1,0 +1,14 @@
+{
+  "locations": [
+    {"name":"OP:Old Palace", "coordinateInView":{"x":353, "y":182}, "description":"Some things", "imageData":""},
+    {"name":"KEJ:King's Ely Junior", "coordinateInView":{"x":145, "y":500}, "description":"Some things", "imageData":""},
+    {"name":"OH:Old HereWard", "coordinateInView":{"x":347, "y":305}, "description":"Some things", "imageData":""},
+    {"name":"Ely Cathedral", "coordinateInView":{"x":482, "y":154}, "description":"Some things", "imageData":""},
+    {"name":"SS:Silver Street Site", "coordinateInView":{"x":317, "y":293}, "description":"Some things", "imageData":""},
+    {"name":"A&D:Art and Drama", "coordinateInView":{"x":314, "y":241}, "description":"Some things", "imageData":""},
+    {"name":"GMS:Gibson Music School", "coordinateInView":{"x":339, "y":230}, "description":"Some things", "imageData":""},
+    {"name":"EO:Examinations Office", "coordinateInView":{"x":353, "y":260}, "description":"Some things", "imageData":""},
+    {"name":"ET:Etheldreda", "coordinateInView":{"x":490, "y":225}, "description":"Some things", "imageData":""},
+    {"name":"PCC:Prior Craudebs Chapel", "coordinateInView":{"x":428, "y":256}, "description":"Some things", "imageData":""}
+  ]
+}

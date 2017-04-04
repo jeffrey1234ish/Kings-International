@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		600232F31ABE315000DBAC42 /* SchoolMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 600232F21ABE315000DBAC42 /* SchoolMapViewController.m */; };
+		60232CF51A7BF690008A0C18 /* CustomFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 60232CF41A7BF690008A0C18 /* CustomFlowLayout.m */; };
+		604508501AC9CA360079B134 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6045084F1AC9CA360079B134 /* BaseViewController.m */; };
+		606B6EEC19F4350100276F5A /* LocationMarkerCreationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606B6EEB19F4350100276F5A /* LocationMarkerCreationViewController.m */; };
+		606D4A661A9414490068F7E5 /* CollectionViewCellGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 606D4A651A9414490068F7E5 /* CollectionViewCellGradientView.m */; };
+		6072B4B91AB0994B0047C57D /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 6072B4B81AB0994B0047C57D /* Store.m */; };
+		6072B4BF1AB0B6F60047C57D /* LocationMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6072B4BE1AB0B6F60047C57D /* LocationMarker.m */; };
+		6072B4C21AB0CFA50047C57D /* MainCollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6072B4C11AB0CFA50047C57D /* MainCollectionViewDataSource.m */; };
+		60A9E5171A7AC5FE003009B4 /* RAMCollectionViewFlemishBondLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A9E5141A7AC5FE003009B4 /* RAMCollectionViewFlemishBondLayout.m */; };
+		60A9E5181A7AC5FE003009B4 /* RAMCollectionViewFlemishBondLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A9E5161A7AC5FE003009B4 /* RAMCollectionViewFlemishBondLayoutAttributes.m */; };
+		60B061E41A79AC79006A73F3 /* MainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B061E31A79AC79006A73F3 /* MainCollectionViewController.m */; };
+		60B0623C1A7A6E15006A73F3 /* GridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B0623B1A7A6E15006A73F3 /* GridCell.m */; };
+		60B3F5EB19EEB4E900479AEC /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B3F5EA19EEB4E900479AEC /* MapViewController.m */; };
+		60B3F5F119EED6D600479AEC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B3F5F019EED6D600479AEC /* AVFoundation.framework */; };
+		60B3F5F319EED6DC00479AEC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B3F5F219EED6DC00479AEC /* CoreData.framework */; };
+		60B3F5F519EED6E200479AEC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B3F5F419EED6E200479AEC /* CoreLocation.framework */; };
+		60B3F5F719EED6F900479AEC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B3F5F619EED6F900479AEC /* GLKit.framework */; };
+		60B3F5F919EED70000479AEC /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B3F5F819EED70000479AEC /* ImageIO.framework */; };
+		60B3F5FB19EED70E00479AEC /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B3F5FA19EED70E00479AEC /* libc++.dylib */; };
+		60B3F5FD19EED72100479AEC /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B3F5FC19EED72100479AEC /* libicucore.dylib */; };
+		60B3F5FF19EED72D00479AEC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B3F5FE19EED72D00479AEC /* libz.dylib */; };
+		60B3F60119EED73300479AEC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B3F60019EED73300479AEC /* OpenGLES.framework */; };
+		60B3F60319EED73D00479AEC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B3F60219EED73D00479AEC /* QuartzCore.framework */; };
+		60B3F60519EED74800479AEC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B3F60419EED74800479AEC /* SystemConfiguration.framework */; };
+		60B3F60A19EEE4C500479AEC /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B3F60919EEE4C500479AEC /* GoogleMaps.framework */; };
+		60B3F60C19EEE55E00479AEC /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 60B3F60B19EEE55E00479AEC /* GoogleMaps.bundle */; };
+		60B488181AC30FD300656D80 /* SchoolMapOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B488171AC30FD300656D80 /* SchoolMapOverlayView.m */; };
+		60C8100D1AC3178D008F6B3C /* SchoolMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C8100C1AC3178D008F6B3C /* SchoolMapView.m */; };
+		60C810111AC37A75008F6B3C /* location.json in Resources */ = {isa = PBXBuildFile; fileRef = 60C810101AC37A75008F6B3C /* location.json */; };
+		60C810141AC38166008F6B3C /* SchoolMapOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C810131AC38166008F6B3C /* SchoolMapOverlayViewController.m */; };
+		60C810171AC403CC008F6B3C /* SchoolMapNavControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C810161AC403CC008F6B3C /* SchoolMapNavControllerDelegate.m */; };
+		60C8101A1AC40814008F6B3C /* ToOverlayViewAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C810191AC40814008F6B3C /* ToOverlayViewAnimator.m */; };
+		60C810201AC45B3D008F6B3C /* TransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C8101F1AC45B3D008F6B3C /* TransitionController.m */; };
+		60C810231AC45EF0008F6B3C /* DissmissOverlayViewAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C810221AC45EF0008F6B3C /* DissmissOverlayViewAnimator.m */; };
+		60CA736019E716FD00CC29AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CA735F19E716FD00CC29AB /* main.m */; };
+		60CA736319E716FD00CC29AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CA736219E716FD00CC29AB /* AppDelegate.m */; };
+		60CA736619E716FD00CC29AB /* Kings_International.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60CA736419E716FD00CC29AB /* Kings_International.xcdatamodeld */; };
+		60CA736C19E716FD00CC29AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CA736A19E716FD00CC29AB /* Main.storyboard */; };
+		60CA736E19E716FD00CC29AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60CA736D19E716FD00CC29AB /* Images.xcassets */; };
+		60CA737119E716FD00CC29AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60CA736F19E716FD00CC29AB /* LaunchScreen.xib */; };
+		60CA737D19E716FF00CC29AB /* Kings_InternationalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CA737C19E716FF00CC29AB /* Kings_InternationalTests.m */; };
+		60CA738B19E7186200CC29AB /* KingsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CA738919E7186200CC29AB /* KingsWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60CA737719E716FF00CC29AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60CA735219E716FD00CC29AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60CA735919E716FD00CC29AB;
+			remoteInfo = "Kings International";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		600232F11ABE315000DBAC42 /* SchoolMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolMapViewController.h; sourceTree = "<group>"; };
+		600232F21ABE315000DBAC42 /* SchoolMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolMapViewController.m; sourceTree = "<group>"; };
+		60232CF31A7BF690008A0C18 /* CustomFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFlowLayout.h; sourceTree = "<group>"; };
+		60232CF41A7BF690008A0C18 /* CustomFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFlowLayout.m; sourceTree = "<group>"; };
+		6045084E1AC9CA360079B134 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		6045084F1AC9CA360079B134 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		606B6EEA19F4350100276F5A /* LocationMarkerCreationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationMarkerCreationViewController.h; sourceTree = "<group>"; };
+		606B6EEB19F4350100276F5A /* LocationMarkerCreationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationMarkerCreationViewController.m; sourceTree = "<group>"; };
+		606D4A641A9414490068F7E5 /* CollectionViewCellGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCellGradientView.h; sourceTree = "<group>"; };
+		606D4A651A9414490068F7E5 /* CollectionViewCellGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCellGradientView.m; sourceTree = "<group>"; };
+		6072B4B71AB0994B0047C57D /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		6072B4B81AB0994B0047C57D /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		6072B4BD1AB0B6F60047C57D /* LocationMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationMarker.h; sourceTree = "<group>"; };
+		6072B4BE1AB0B6F60047C57D /* LocationMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationMarker.m; sourceTree = "<group>"; };
+		6072B4C01AB0CFA50047C57D /* MainCollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewDataSource.h; sourceTree = "<group>"; };
+		6072B4C11AB0CFA50047C57D /* MainCollectionViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewDataSource.m; sourceTree = "<group>"; };
+		60A9E5131A7AC5FE003009B4 /* RAMCollectionViewFlemishBondLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMCollectionViewFlemishBondLayout.h; sourceTree = "<group>"; };
+		60A9E5141A7AC5FE003009B4 /* RAMCollectionViewFlemishBondLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAMCollectionViewFlemishBondLayout.m; sourceTree = "<group>"; };
+		60A9E5151A7AC5FE003009B4 /* RAMCollectionViewFlemishBondLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMCollectionViewFlemishBondLayoutAttributes.h; sourceTree = "<group>"; };
+		60A9E5161A7AC5FE003009B4 /* RAMCollectionViewFlemishBondLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAMCollectionViewFlemishBondLayoutAttributes.m; sourceTree = "<group>"; };
+		60B061E21A79AC79006A73F3 /* MainCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewController.h; sourceTree = "<group>"; };
+		60B061E31A79AC79006A73F3 /* MainCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewController.m; sourceTree = "<group>"; };
+		60B0623A1A7A6E15006A73F3 /* GridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridCell.h; sourceTree = "<group>"; };
+		60B0623B1A7A6E15006A73F3 /* GridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridCell.m; sourceTree = "<group>"; };
+		60B3F5E719EEB41200479AEC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		60B3F5E919EEB4E900479AEC /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		60B3F5EA19EEB4E900479AEC /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		60B3F5EF19EED18500479AEC /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		60B3F5F019EED6D600479AEC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		60B3F5F219EED6DC00479AEC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		60B3F5F419EED6E200479AEC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		60B3F5F619EED6F900479AEC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		60B3F5F819EED70000479AEC /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		60B3F5FA19EED70E00479AEC /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		60B3F5FC19EED72100479AEC /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		60B3F5FE19EED72D00479AEC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		60B3F60019EED73300479AEC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		60B3F60219EED73D00479AEC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		60B3F60419EED74800479AEC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		60B3F60919EEE4C500479AEC /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		60B3F60B19EEE55E00479AEC /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		60B488161AC30FD300656D80 /* SchoolMapOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolMapOverlayView.h; sourceTree = "<group>"; };
+		60B488171AC30FD300656D80 /* SchoolMapOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolMapOverlayView.m; sourceTree = "<group>"; };
+		60C8100B1AC3178D008F6B3C /* SchoolMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolMapView.h; sourceTree = "<group>"; };
+		60C8100C1AC3178D008F6B3C /* SchoolMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolMapView.m; sourceTree = "<group>"; };
+		60C810101AC37A75008F6B3C /* location.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = location.json; sourceTree = "<group>"; };
+		60C810121AC38166008F6B3C /* SchoolMapOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolMapOverlayViewController.h; sourceTree = "<group>"; };
+		60C810131AC38166008F6B3C /* SchoolMapOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolMapOverlayViewController.m; sourceTree = "<group>"; };
+		60C810151AC403CC008F6B3C /* SchoolMapNavControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolMapNavControllerDelegate.h; sourceTree = "<group>"; };
+		60C810161AC403CC008F6B3C /* SchoolMapNavControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolMapNavControllerDelegate.m; sourceTree = "<group>"; };
+		60C810181AC40814008F6B3C /* ToOverlayViewAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToOverlayViewAnimator.h; sourceTree = "<group>"; };
+		60C810191AC40814008F6B3C /* ToOverlayViewAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToOverlayViewAnimator.m; sourceTree = "<group>"; };
+		60C8101E1AC45B3D008F6B3C /* TransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionController.h; sourceTree = "<group>"; };
+		60C8101F1AC45B3D008F6B3C /* TransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionController.m; sourceTree = "<group>"; };
+		60C810211AC45EF0008F6B3C /* DissmissOverlayViewAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DissmissOverlayViewAnimator.h; sourceTree = "<group>"; };
+		60C810221AC45EF0008F6B3C /* DissmissOverlayViewAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DissmissOverlayViewAnimator.m; sourceTree = "<group>"; };
+		60CA735A19E716FD00CC29AB /* Kings International.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kings International.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60CA735E19E716FD00CC29AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60CA735F19E716FD00CC29AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60CA736119E716FD00CC29AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60CA736219E716FD00CC29AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60CA736519E716FD00CC29AB /* Kings_International.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kings_International.xcdatamodel; sourceTree = "<group>"; };
+		60CA736B19E716FD00CC29AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60CA736D19E716FD00CC29AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		60CA737019E716FD00CC29AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		60CA737619E716FF00CC29AB /* Kings InternationalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kings InternationalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60CA737B19E716FF00CC29AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60CA737C19E716FF00CC29AB /* Kings_InternationalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kings_InternationalTests.m; sourceTree = "<group>"; };
+		60CA738919E7186200CC29AB /* KingsWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KingsWebViewController.m; sourceTree = "<group>"; };
+		60CA738A19E7186200CC29AB /* KingsWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KingsWebViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60CA735719E716FD00CC29AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B3F60519EED74800479AEC /* SystemConfiguration.framework in Frameworks */,
+				60B3F60319EED73D00479AEC /* QuartzCore.framework in Frameworks */,
+				60B3F60119EED73300479AEC /* OpenGLES.framework in Frameworks */,
+				60B3F5FF19EED72D00479AEC /* libz.dylib in Frameworks */,
+				60B3F5FD19EED72100479AEC /* libicucore.dylib in Frameworks */,
+				60B3F5FB19EED70E00479AEC /* libc++.dylib in Frameworks */,
+				60B3F60A19EEE4C500479AEC /* GoogleMaps.framework in Frameworks */,
+				60B3F5F919EED70000479AEC /* ImageIO.framework in Frameworks */,
+				60B3F5F719EED6F900479AEC /* GLKit.framework in Frameworks */,
+				60B3F5F519EED6E200479AEC /* CoreLocation.framework in Frameworks */,
+				60B3F5F319EED6DC00479AEC /* CoreData.framework in Frameworks */,
+				60B3F5F119EED6D600479AEC /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60CA737319E716FF00CC29AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		600232F51ABE317900DBAC42 /* SchoolMap */ = {
+			isa = PBXGroup;
+			children = (
+				604508511AC9CBBD0079B134 /* Views */,
+				604508521AC9CBD30079B134 /* Controllers */,
+				604508541AC9CC170079B134 /* Models */,
+			);
+			name = SchoolMap;
+			sourceTree = "<group>";
+		};
+		60232CF61A7BFD3E008A0C18 /* MainCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				60A9E5121A7AC5FE003009B4 /* RAMCollectionViewFlemishBondLayout */,
+				60B0623A1A7A6E15006A73F3 /* GridCell.h */,
+				60B0623B1A7A6E15006A73F3 /* GridCell.m */,
+				60232CF31A7BF690008A0C18 /* CustomFlowLayout.h */,
+				60232CF41A7BF690008A0C18 /* CustomFlowLayout.m */,
+				60B061E21A79AC79006A73F3 /* MainCollectionViewController.h */,
+				60B061E31A79AC79006A73F3 /* MainCollectionViewController.m */,
+				606D4A641A9414490068F7E5 /* CollectionViewCellGradientView.h */,
+				606D4A651A9414490068F7E5 /* CollectionViewCellGradientView.m */,
+				6072B4C01AB0CFA50047C57D /* MainCollectionViewDataSource.h */,
+				6072B4C11AB0CFA50047C57D /* MainCollectionViewDataSource.m */,
+			);
+			name = MainCollectionView;
+			sourceTree = "<group>";
+		};
+		604508511AC9CBBD0079B134 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				60B488161AC30FD300656D80 /* SchoolMapOverlayView.h */,
+				60B488171AC30FD300656D80 /* SchoolMapOverlayView.m */,
+				60C8100B1AC3178D008F6B3C /* SchoolMapView.h */,
+				60C8100C1AC3178D008F6B3C /* SchoolMapView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		604508521AC9CBD30079B134 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				600232F11ABE315000DBAC42 /* SchoolMapViewController.h */,
+				600232F21ABE315000DBAC42 /* SchoolMapViewController.m */,
+				60C810121AC38166008F6B3C /* SchoolMapOverlayViewController.h */,
+				60C810131AC38166008F6B3C /* SchoolMapOverlayViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		604508541AC9CC170079B134 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				60C810151AC403CC008F6B3C /* SchoolMapNavControllerDelegate.h */,
+				60C810161AC403CC008F6B3C /* SchoolMapNavControllerDelegate.m */,
+				60C8101E1AC45B3D008F6B3C /* TransitionController.h */,
+				60C8101F1AC45B3D008F6B3C /* TransitionController.m */,
+				60C810181AC40814008F6B3C /* ToOverlayViewAnimator.h */,
+				60C810191AC40814008F6B3C /* ToOverlayViewAnimator.m */,
+				60C810211AC45EF0008F6B3C /* DissmissOverlayViewAnimator.h */,
+				60C810221AC45EF0008F6B3C /* DissmissOverlayViewAnimator.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		606B6EED19F8049E00276F5A /* MapViewClasses */ = {
+			isa = PBXGroup;
+			children = (
+				60B3F5E919EEB4E900479AEC /* MapViewController.h */,
+				60B3F5EA19EEB4E900479AEC /* MapViewController.m */,
+				606B6EEA19F4350100276F5A /* LocationMarkerCreationViewController.h */,
+				606B6EEB19F4350100276F5A /* LocationMarkerCreationViewController.m */,
+				6072B4BD1AB0B6F60047C57D /* LocationMarker.h */,
+				6072B4BE1AB0B6F60047C57D /* LocationMarker.m */,
+				6072B4B71AB0994B0047C57D /* Store.h */,
+				6072B4B81AB0994B0047C57D /* Store.m */,
+			);
+			name = MapViewClasses;
+			sourceTree = "<group>";
+		};
+		606B6EEE19F804E400276F5A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60C810101AC37A75008F6B3C /* location.json */,
+				60CA736419E716FD00CC29AB /* Kings_International.xcdatamodeld */,
+				60CA736F19E716FD00CC29AB /* LaunchScreen.xib */,
+				60CA736D19E716FD00CC29AB /* Images.xcassets */,
+				60CA736A19E716FD00CC29AB /* Main.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		60A9E5121A7AC5FE003009B4 /* RAMCollectionViewFlemishBondLayout */ = {
+			isa = PBXGroup;
+			children = (
+				60A9E5131A7AC5FE003009B4 /* RAMCollectionViewFlemishBondLayout.h */,
+				60A9E5141A7AC5FE003009B4 /* RAMCollectionViewFlemishBondLayout.m */,
+				60A9E5151A7AC5FE003009B4 /* RAMCollectionViewFlemishBondLayoutAttributes.h */,
+				60A9E5161A7AC5FE003009B4 /* RAMCollectionViewFlemishBondLayoutAttributes.m */,
+			);
+			path = RAMCollectionViewFlemishBondLayout;
+			sourceTree = "<group>";
+		};
+		60B3F5EE19EED0F300479AEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60B3F60B19EEE55E00479AEC /* GoogleMaps.bundle */,
+				60B3F60919EEE4C500479AEC /* GoogleMaps.framework */,
+				60B3F60419EED74800479AEC /* SystemConfiguration.framework */,
+				60B3F60219EED73D00479AEC /* QuartzCore.framework */,
+				60B3F60019EED73300479AEC /* OpenGLES.framework */,
+				60B3F5FE19EED72D00479AEC /* libz.dylib */,
+				60B3F5FC19EED72100479AEC /* libicucore.dylib */,
+				60B3F5FA19EED70E00479AEC /* libc++.dylib */,
+				60B3F5F819EED70000479AEC /* ImageIO.framework */,
+				60B3F5F619EED6F900479AEC /* GLKit.framework */,
+				60B3F5F419EED6E200479AEC /* CoreLocation.framework */,
+				60B3F5F219EED6DC00479AEC /* CoreData.framework */,
+				60B3F5F019EED6D600479AEC /* AVFoundation.framework */,
+				60B3F5E719EEB41200479AEC /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60CA735119E716FD00CC29AB = {
+			isa = PBXGroup;
+			children = (
+				60B3F5EE19EED0F300479AEC /* Frameworks */,
+				60CA735C19E716FD00CC29AB /* Kings International */,
+				60CA737919E716FF00CC29AB /* Kings InternationalTests */,
+				60CA735B19E716FD00CC29AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60CA735B19E716FD00CC29AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60CA735A19E716FD00CC29AB /* Kings International.app */,
+				60CA737619E716FF00CC29AB /* Kings InternationalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60CA735C19E716FD00CC29AB /* Kings International */ = {
+			isa = PBXGroup;
+			children = (
+				606B6EED19F8049E00276F5A /* MapViewClasses */,
+				600232F51ABE317900DBAC42 /* SchoolMap */,
+				60232CF61A7BFD3E008A0C18 /* MainCollectionView */,
+				60B3F5EF19EED18500479AEC /* Common.h */,
+				6045084E1AC9CA360079B134 /* BaseViewController.h */,
+				6045084F1AC9CA360079B134 /* BaseViewController.m */,
+				60CA736119E716FD00CC29AB /* AppDelegate.h */,
+				60CA736219E716FD00CC29AB /* AppDelegate.m */,
+				60CA738A19E7186200CC29AB /* KingsWebViewController.h */,
+				60CA738919E7186200CC29AB /* KingsWebViewController.m */,
+				606B6EEE19F804E400276F5A /* Resources */,
+				60CA735D19E716FD00CC29AB /* Supporting Files */,
+			);
+			path = "Kings International";
+			sourceTree = "<group>";
+		};
+		60CA735D19E716FD00CC29AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60CA735E19E716FD00CC29AB /* Info.plist */,
+				60CA735F19E716FD00CC29AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60CA737919E716FF00CC29AB /* Kings InternationalTests */ = {
+			isa = PBXGroup;
+			children = (
+				60CA737C19E716FF00CC29AB /* Kings_InternationalTests.m */,
+				60CA737A19E716FF00CC29AB /* Supporting Files */,
+			);
+			path = "Kings InternationalTests";
+			sourceTree = "<group>";
+		};
+		60CA737A19E716FF00CC29AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60CA737B19E716FF00CC29AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60CA735919E716FD00CC29AB /* Kings International */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60CA738019E716FF00CC29AB /* Build configuration list for PBXNativeTarget "Kings International" */;
+			buildPhases = (
+				60CA735619E716FD00CC29AB /* Sources */,
+				60CA735719E716FD00CC29AB /* Frameworks */,
+				60CA735819E716FD00CC29AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kings International";
+			productName = "Kings International";
+			productReference = 60CA735A19E716FD00CC29AB /* Kings International.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60CA737519E716FF00CC29AB /* Kings InternationalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60CA738319E716FF00CC29AB /* Build configuration list for PBXNativeTarget "Kings InternationalTests" */;
+			buildPhases = (
+				60CA737219E716FF00CC29AB /* Sources */,
+				60CA737319E716FF00CC29AB /* Frameworks */,
+				60CA737419E716FF00CC29AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60CA737819E716FF00CC29AB /* PBXTargetDependency */,
+			);
+			name = "Kings InternationalTests";
+			productName = "Kings InternationalTests";
+			productReference = 60CA737619E716FF00CC29AB /* Kings InternationalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60CA735219E716FD00CC29AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Andrei Chan";
+				TargetAttributes = {
+					60CA735919E716FD00CC29AB = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					60CA737519E716FF00CC29AB = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 60CA735919E716FD00CC29AB;
+					};
+				};
+			};
+			buildConfigurationList = 60CA735519E716FD00CC29AB /* Build configuration list for PBXProject "Kings International" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60CA735119E716FD00CC29AB;
+			productRefGroup = 60CA735B19E716FD00CC29AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60CA735919E716FD00CC29AB /* Kings International */,
+				60CA737519E716FF00CC29AB /* Kings InternationalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60CA735819E716FD00CC29AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CA736C19E716FD00CC29AB /* Main.storyboard in Resources */,
+				60CA737119E716FD00CC29AB /* LaunchScreen.xib in Resources */,
+				60CA736E19E716FD00CC29AB /* Images.xcassets in Resources */,
+				60C810111AC37A75008F6B3C /* location.json in Resources */,
+				60B3F60C19EEE55E00479AEC /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60CA737419E716FF00CC29AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60CA735619E716FD00CC29AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C810171AC403CC008F6B3C /* SchoolMapNavControllerDelegate.m in Sources */,
+				606B6EEC19F4350100276F5A /* LocationMarkerCreationViewController.m in Sources */,
+				60CA736619E716FD00CC29AB /* Kings_International.xcdatamodeld in Sources */,
+				60CA736319E716FD00CC29AB /* AppDelegate.m in Sources */,
+				60C8101A1AC40814008F6B3C /* ToOverlayViewAnimator.m in Sources */,
+				60CA738B19E7186200CC29AB /* KingsWebViewController.m in Sources */,
+				606D4A661A9414490068F7E5 /* CollectionViewCellGradientView.m in Sources */,
+				6072B4B91AB0994B0047C57D /* Store.m in Sources */,
+				604508501AC9CA360079B134 /* BaseViewController.m in Sources */,
+				60B3F5EB19EEB4E900479AEC /* MapViewController.m in Sources */,
+				60B488181AC30FD300656D80 /* SchoolMapOverlayView.m in Sources */,
+				6072B4BF1AB0B6F60047C57D /* LocationMarker.m in Sources */,
+				60A9E5171A7AC5FE003009B4 /* RAMCollectionViewFlemishBondLayout.m in Sources */,
+				60C810231AC45EF0008F6B3C /* DissmissOverlayViewAnimator.m in Sources */,
+				6072B4C21AB0CFA50047C57D /* MainCollectionViewDataSource.m in Sources */,
+				60B0623C1A7A6E15006A73F3 /* GridCell.m in Sources */,
+				60232CF51A7BF690008A0C18 /* CustomFlowLayout.m in Sources */,
+				60C8100D1AC3178D008F6B3C /* SchoolMapView.m in Sources */,
+				60C810201AC45B3D008F6B3C /* TransitionController.m in Sources */,
+				60B061E41A79AC79006A73F3 /* MainCollectionViewController.m in Sources */,
+				600232F31ABE315000DBAC42 /* SchoolMapViewController.m in Sources */,
+				60A9E5181A7AC5FE003009B4 /* RAMCollectionViewFlemishBondLayoutAttributes.m in Sources */,
+				60C810141AC38166008F6B3C /* SchoolMapOverlayViewController.m in Sources */,
+				60CA736019E716FD00CC29AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60CA737219E716FF00CC29AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CA737D19E716FF00CC29AB /* Kings_InternationalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60CA737819E716FF00CC29AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60CA735919E716FD00CC29AB /* Kings International */;
+			targetProxy = 60CA737719E716FF00CC29AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60CA736A19E716FD00CC29AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60CA736B19E716FD00CC29AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60CA736F19E716FD00CC29AB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60CA737019E716FD00CC29AB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60CA737E19E716FF00CC29AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60CA737F19E716FF00CC29AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60CA738119E716FF00CC29AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/chnigkiuchan/Downloads/GoogleMaps-iOS-1.8.1",
+					"$(PROJECT_DIR)/Kings",
+					International,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Kings International/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		60CA738219E716FF00CC29AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/chnigkiuchan/Downloads/GoogleMaps-iOS-1.8.1",
+					"$(PROJECT_DIR)/Kings",
+					International,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Kings International/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		60CA738419E716FF00CC29AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kings InternationalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kings International.app/Kings International";
+			};
+			name = Debug;
+		};
+		60CA738519E716FF00CC29AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kings InternationalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kings International.app/Kings International";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60CA735519E716FD00CC29AB /* Build configuration list for PBXProject "Kings International" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CA737E19E716FF00CC29AB /* Debug */,
+				60CA737F19E716FF00CC29AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60CA738019E716FF00CC29AB /* Build configuration list for PBXNativeTarget "Kings International" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CA738119E716FF00CC29AB /* Debug */,
+				60CA738219E716FF00CC29AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60CA738319E716FF00CC29AB /* Build configuration list for PBXNativeTarget "Kings InternationalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CA738419E716FF00CC29AB /* Debug */,
+				60CA738519E716FF00CC29AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		60CA736419E716FD00CC29AB /* Kings_International.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				60CA736519E716FD00CC29AB /* Kings_International.xcdatamodel */,
+			);
+			currentVersion = 60CA736519E716FD00CC29AB /* Kings_International.xcdatamodel */;
+			path = Kings_International.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 60CA735219E716FD00CC29AB /* Project object */;
+}
